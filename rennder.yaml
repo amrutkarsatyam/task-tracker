@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: task-tracker-frontend
+    env: docker
+    dockerfilePath: ./Dockerfile
+    autoDeploy: false
+    plan: free
